@@ -1,3 +1,6 @@
+# Screenshot
+![Screenshot of interactive login form]()
+
 # Dark Interactive Login Form
 
 A modern, interactive login form with animated SVG avatar that responds to user input. This project includes a login page, sign-up page, and password recovery page with a cohesive dark theme design.
