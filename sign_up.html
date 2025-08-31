@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Dark Interactive Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/sign_up.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Create Account</h1>
+            <p>Join us to get started</p>
+        </div>
+        
+        <div class="svgContainer">
+            <i class="fas fa-user-plus"></i>
+        </div>
+        
+        <form id="signupForm">
+            <div class="inputGroup inputGroup1">
+                <label for="signupName"><i class="fas fa-user"></i> Full Name</label>
+                <input type="text" id="signupName" placeholder=" " />
+            </div>
+            
+            <div class="inputGroup inputGroup1">
+                <label for="signupEmail"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="signupEmail" placeholder=" " />
+                <p class="helper helper1">email@domain.com</p>
+            </div>
+            
+            <div class="inputGroup inputGroup2">
+                <label for="signupPassword"><i class="fas fa-lock"></i> Password</label>
+                <input type="password" id="signupPassword" placeholder=" " />
+                <div class="password-strength">
+                    <div class="strength-meter"></div>
+                </div>
+            </div>
+            
+            <div class="inputGroup inputGroup2">
+                <label for="confirmPassword"><i class="fas fa-lock"></i> Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder=" " />
+                <label id="showPasswordToggle" for="showPasswordCheck">
+                    <input id="showPasswordCheck" type="checkbox"/>
+                    <div class="indicator"></div>
+                    Show Password
+                </label>
+            </div>
+            
+            <div class="terms">
+                By creating an account, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+            </div>
+            
+            <div class="inputGroup inputGroup3">
+                <button id="signup">Create Account <i class="fas fa-arrow-right"></i></button>
+            </div>
+            
+            <div class="status-message" id="statusMessage"></div>
+        </form>
+        
+        <div class="footer">
+            <p>Already have an account? <a href="login.html">Sign in</a></p>
+        </div>
+    </div>
+
+    	<script type="text/javascript" src="js/sign_up.js"></script>
+</body>
+</html>
