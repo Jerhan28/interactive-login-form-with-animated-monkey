@@ -1,5 +1,5 @@
 # Screenshot
-![Screenshot of interactive login form]()
+![Screenshot of interactive login form](image/screenshot.png)
 
 # Dark Interactive Login Form
 
